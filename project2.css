@@ -1,0 +1,287 @@
+body{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+    
+}
+
+.header-part
+{
+    border: 1px light black;
+    height: 30px;
+    width: 100%;
+    background-color: rgb(231, 229, 229);
+}
+
+.container-body
+{
+    margin-left: 270px;
+    margin-top: 120px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-body-heading
+{
+    font-size: 40px;
+}
+
+.container-body-heading-span
+{
+    color: gray;
+}
+
+.container-body-heading2
+{
+    margin-left: 300px;
+    margin-top: 55px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-body-circle
+{
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(245, 47, 47);
+    position: relative;
+}
+
+.container-body-div1 {
+    position: absolute;
+    width: 20px;
+    height: 1px;
+    margin-top: 23px;
+    margin-left: 15px;
+    background-color: white;
+}
+.container-body-div2 {
+    position: absolute;
+    width: 1px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 25px;
+    background-color: white;
+}
+
+.container-body-heading2text
+{
+    margin-left: 20px;
+    font-size: 30px;
+    color: grey;
+    margin-top: 10px;
+}
+
+.container-tabs
+{
+    margin-left: 200px;
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.container-tab1
+{
+    justify-content: space-between;
+    width: 200px;
+    height: 300px;
+    border: 2px solid rgb(245, 47, 47);
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 8px 8px rgb(230, 228, 228);
+}
+
+
+
+.tab2
+{
+    margin-left: 50px;
+}
+
+.tab3
+{
+    margin-left: 50px;
+}
+
+.tab4
+{
+    margin-left: 50px;
+}
+
+.tab5
+{
+    margin-left: 50px;
+}
+
+.tab1-text
+{
+    
+    margin-top: 35px;
+    margin-left: 0px;
+    color: rgb(235, 110, 110);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.tab1-hr
+{
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+.tab1-text2
+{
+    color: red;   
+    margin-top: 30px;
+    font-size: 18px;
+    text-decoration: line-through;
+    text-decoration-style: solid;
+}
+
+.tab1-checkbox
+{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#checkbox
+{
+    width: 15px;
+    height: 15px;
+}
+
+@media screen and (min-width:300px) and (max-width:400px) {
+    .header-part{
+        background-color: white;
+    }
+    
+    .container-body
+    {
+        margin-left: 20px;
+        margin-top: 20px;
+        display: flex;
+    }
+
+    .container-body-heading
+    {
+        font-size: 20px;
+    }
+
+    .container-body-heading2
+    {
+    margin-left: 40px;
+    margin-top: 0px;
+    display: flex;
+    }
+    .container-body-heading2text
+    {
+    margin-left: 20px;
+    font-size: 0px;
+    color: grey;
+    margin-top: 10px;
+    }
+    .container-body-circle
+    {
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(245, 47, 47);
+    position: relative;
+    }
+    
+    .container-tabs{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    .container-tab1{
+        width: 290px;
+        height: 80px;
+        border: 1px solid gray;
+        margin-top: 30px;
+    }
+    .tab2
+        {
+        margin-left: 0px;
+        }
+
+    .tab3
+         {
+    margin-left: 0px;
+        }
+
+    .tab4
+        {
+    margin-left: 0px;
+        }
+
+    .tab5
+    {
+    margin-left: 00px;
+    }
+    .tab1-hr
+    {
+    margin-top: 10px;
+    margin-left: 35px;
+    background-color: none;
+    border: none;
+    height: 0px;
+    }
+    .tab1-text2{
+        font-size: 0px;
+    }
+    .tab1-text{
+        font-size: 26px;
+        margin-left: 10px;
+        margin-top: 10px;
+        color: gray;
+    }
+    .span1{
+        font-size: 0px;
+    }
+    #checkbox{
+        size:0;
+        width: 0px;
+        height: 0px;
+    }
+    
+}
+
+@media screen and (min-width:700px) and (max-width:800px) {
+
+    .container-body-heading{
+        margin-left: -100px;
+    }
+    .container-body-heading2{
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+   .container-tabs{
+       display: flex;
+       flex-direction: column;
+       margin-left: 200px;
+   }
+   .container-tab1{
+       width: 400px;
+       height: 200px;
+       margin-top: 50px;
+       border: 1px solid gray;
+    }
+    .tab2{
+        margin-left: 0px;
+    }
+    .tab3{
+        margin-left: 0px;
+    }
+    .tab4{
+        margin-left: 0px;
+    }
+    .tab5{
+        margin-left: 0px;
+    }
+}
